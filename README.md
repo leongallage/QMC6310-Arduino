@@ -50,9 +50,8 @@ void loop() {
     } else {
         Serial.println("Error reading sensor data");
     }
-
     delay(1000); // Delay before next read
-}
+ }
 
 Functions
 bool begin(): Initializes the sensor and sets it up for reading.
