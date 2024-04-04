@@ -1,7 +1,9 @@
 QMC6310 Magnetometer Library for Arduino
+
 This library provides an interface to interact with the QMC6310 magnetometer sensor using Arduino boards. It allows for the initialization of the sensor, reading of the magnetic field data in three dimensions, and calculation of the azimuth (heading) and elevation (pitch) angles.
 
 Features
+
 Initialize the QMC6310 sensor
 Read magnetic field data in x, y, and z directions
 Calculate azimuth (heading) relative to the magnetic north
@@ -10,11 +12,13 @@ Prerequisites
 Before using this library, ensure you have the Arduino IDE installed on your computer. You also need an Arduino board (e.g., Uno, Mega, Leonardo, etc.) and a QMC6310 magnetometer module connected to your Arduino via I2C.
 
 Installation
+
 Download the library as a ZIP file.
 Open the Arduino IDE, go to Sketch > Include Library > Add .ZIP Library, and select the downloaded ZIP file.
 The library is now installed and ready to use in your sketches.
 
 Usage
+
 Here’s how to use the library in your Arduino sketch:
 
 Include the QMC6310 library at the top of your sketch.
